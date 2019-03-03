@@ -3,5 +3,5 @@ def my_collect(yeet)
   i = 0
   
   while i < yeet.length
-  yield
+  rvalue << (yield yeet[i])
 
