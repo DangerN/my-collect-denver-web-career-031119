@@ -6,5 +6,6 @@ def my_collect(yeet)
   rvalue << (yield yeet[i])
   i += 1
 end
+rvalue
 end
 
