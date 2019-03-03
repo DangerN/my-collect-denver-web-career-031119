@@ -4,7 +4,7 @@ def my_collect(yeet)
   
   while i < yeet.length
   rvalue << (yield yeet[i])
-  i++
+  i += 1
 end
 end
 
